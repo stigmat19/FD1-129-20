@@ -33,7 +33,7 @@ h4{
 
 /*header*/
 .header{
-    background: url("img/headerBG.jpeg") center no-repeat;
+    background: url("../img/headerBG.jpeg") center no-repeat;
     background-size: cover;
     height: 896px;
 }
@@ -84,7 +84,7 @@ h4{
     float: left;
     padding-top: 447px;
     padding-left: 54px;
-    background: url("img/item1.jpeg") center no-repeat;
+    background: url("../img/item1.jpeg") center no-repeat;
 }
 .wear-top .wear-top-left h2{
     font-size: 60px;
@@ -102,12 +102,12 @@ h4{
     width: 464px;
     height: 362px;
     margin-bottom: 55px;
-    background: url("img/item2.jpeg") center no-repeat;
+    background: url("../img/item2.jpeg") center no-repeat;
 }
 .wear-top-right-bottom{
     width: 464px;
     height: 362px;
-    background: url("img/item3.jpeg") -40px center no-repeat;
+    background: url("../img/item3.jpeg") -40px center no-repeat;
 }
 
 .wear-bottom{
@@ -121,20 +121,20 @@ h4{
 }
 .wear-bottom-item:first-child{
     float: left;
-    background: url("img/item4.jpeg") -160px center no-repeat;
+    background: url("../img/item4.jpeg") -160px center no-repeat;
 }
 .wear-bottom-item:nth-child(3){
     margin: 0 auto;
-    background: url("img/item5.jpeg") -620px -244px no-repeat;
+    background: url("../img/item5.jpeg") -620px -244px no-repeat;
 }
 .wear-bottom-item:nth-child(2){
     float: right;
-    background: url("img/item6.jpeg") -130px center no-repeat;
+    background: url("../img/item6.jpeg") -130px center no-repeat;
 }
 
 /*instagram*/
 .instagram{
-    background: url("img/third-block-bg.jpeg") center no-repeat;
+    background: url("../img/third-block-bg.jpeg") center no-repeat;
 }
 .shadow{
     padding-top: 1px;

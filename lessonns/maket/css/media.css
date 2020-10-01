@@ -1,0 +1,142 @@
+@media all and (max-width: 1575px){
+    .container{
+        width: 1140px;
+    }
+    .wear-top-left{
+        width: 100%;
+        float: none;
+        margin-bottom: 50px;
+    }
+    .wear-top-right{
+        float: none;
+    }
+    .wear-top-right-top{
+        float: left;
+        width: 550px;
+        background-position-x: left;
+        margin-bottom: 0;
+    }
+    .wear-top-right-bottom{
+        float: right;
+        width: 550px;
+        margin-bottom: 0;
+    }
+    .wear-bottom-item:nth-child(1){
+        width: 539px;
+    }
+    .wear-bottom-item:nth-child(2){
+        width: 549px;
+        margin-bottom: 50px;
+    }
+    .wear-bottom-item:nth-child(3){
+        width: auto;
+        clear: both;
+    }
+    .menu li{
+        margin-right: 40px;
+    }
+}
+
+@media all and (max-width: 1210px){
+    .container{
+        width: 800px;
+    }
+    .wear-top-right-top{
+        width: 396px;
+    }
+    .wear-top-right-bottom{
+        width: 396px;
+    }
+    .wear h2{
+        font-size: 28px;
+    }
+    .wear-top-left{
+        margin-bottom: 8px;
+    }
+    .wear-bottom-item:nth-child(1),
+    .wear-bottom-item:nth-child(2){
+        width: 396px;
+        margin-bottom: 8px;
+    }
+    .wear-bottom{
+        padding-top: 8px;
+    }
+    .menu{
+        float: none;
+        overflow: hidden;
+    }
+    .social{
+        float: none;
+        width: 200px;
+        overflow: hidden;
+        margin: 20px auto;
+    }
+}
+
+@media all and (max-width: 860px){
+    .container{
+        width: 300px;
+    }
+    .wear-top-right-top, .wear-top-right-bottom{
+        width: 100%;
+        float: none;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .wear-top .wear-top-left h2{
+        font-size: 24px;
+    }
+    .wear h2{
+        font-size: 25px;
+    }
+    .wear-top-left{
+        margin-bottom: 8px;
+    }
+    .wear-bottom-item:nth-child(2){
+        background-position-x: -206px;
+    }
+    .wear-bottom-item:nth-child(1),
+    .wear-bottom-item:nth-child(2){
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .wear-bottom{
+        padding-top: 8px;
+    }
+    .menu{
+        float: none;
+        overflow: hidden;
+    }
+    .social{
+        float: none;
+        width: 200px;
+        overflow: hidden;
+        margin: 20px auto;
+    }
+    .shadow h2{
+        font-size: 26px;
+    }
+    .wear-top-right > div{
+        padding-left: 15px;
+    }
+    .logo{
+        float: none;
+        text-align: center;
+    }
+    .header ul li{
+        margin-top: 19px;
+    }
+    .menu li{
+        float: none;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .menu{
+        text-align: center;
+    }
+    .social li{
+        margin-left: 19px;
+        margin-right: 19px;
+    }
+}

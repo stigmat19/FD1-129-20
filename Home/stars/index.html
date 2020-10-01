@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .stars{
+            float: left;
+        }
+        .stars div{
+            width: 74px;
+            height: 78px;
+            background-image: url("star0.png");
+            float: right;
+        }
+        .stars div:hover ~ div{
+            background-image: url("star1.png");
+        }
+        .stars div:hover{
+            background-image: url("star1.png");
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="stars">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+</body>
+</html>
